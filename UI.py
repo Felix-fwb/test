@@ -39,7 +39,7 @@ class Example(QWidget):
         v_box = QVBoxLayout()
         v_box.addStretch(1)
         v_box.addLayout(h_box)
-        v_box.addStretch(10)
+        v_box.addStretch(1000)
 
         self.setLayout(v_box)
 
