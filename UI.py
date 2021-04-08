@@ -35,7 +35,7 @@ class Example(QWidget):
         h_box.addStretch(1)
         h_box.addWidget(bt3)
         h_box.addStretch(1)
-        #第一次更新上去！！！！！！！
+
         v_box = QVBoxLayout()
         v_box.addStretch(1)
         v_box.addLayout(h_box)
