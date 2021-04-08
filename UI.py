@@ -15,7 +15,7 @@ class Example(QWidget):
         """
             none
         """
-        self.setGeometry(800, 800, 900, 800)
+        self.setGeometry(100, 100, 100, 100)
         self.setWindowTitle('一起来学习')
 
         bt1 = QPushButton('a', self)
@@ -27,7 +27,7 @@ class Example(QWidget):
         bt3 = QPushButton('c', self)
         # bt3.move(250, 250)
         h_box = QHBoxLayout()
-        h_box.addStretch(20)
+        h_box.addStretch(200)
 
         h_box.addWidget(bt1)
         h_box.addStretch(1)
