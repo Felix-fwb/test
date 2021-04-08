@@ -8,4 +8,6 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Example()
     ex.show()
+    # 增加了备注，在该文件
+
     app.exit(app.exec_())
